@@ -85,7 +85,6 @@ Upload one or more PDFs, process their content, and ask questions in natural lan
 1. **Retrieval:** Find relevant passages in your uploaded documents.
 2. **Generation:** Give those passages and the user's question to an LLM so it can generate an answer grounded in the retrieved context.
 
-This approach helps the application answer questions about user-provided documents without requiring the entire document to be included in every question.
 
 ## 🛠️ Tech Stack
 
@@ -115,7 +114,6 @@ RAGdocumentQnA/
 └── README.md       # Project documentation
 ```
 
-> This diagram reflects the files currently in the repository. If you later split the application into modules, update this section to match the new structure.
 
 ## ⚙️ Getting Started
 
